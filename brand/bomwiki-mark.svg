@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#ffffff"/>
+  <!-- BOM tree: a root and its indented children, the shape of every page -->
+  <g>
+    <!-- trunk and connectors -->
+    <path d="M150 176 v218" stroke="#c8ccd1" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M150 240 h44" stroke="#c8ccd1" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M150 317 h44" stroke="#c8ccd1" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M150 394 h44" stroke="#c8ccd1" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <!-- root -->
+    <rect x="108" y="108" width="240" height="52" rx="12" fill="#202122"/>
+    <!-- children -->
+    <rect x="210" y="214" width="192" height="52" rx="12" fill="#3366cc"/>
+    <rect x="210" y="291" width="150" height="52" rx="12" fill="#202122"/>
+    <rect x="210" y="368" width="120" height="52" rx="12" fill="#a2a9b1"/>
+  </g>
+</svg>

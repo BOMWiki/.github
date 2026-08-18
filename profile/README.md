@@ -11,6 +11,8 @@
 
 **The free encyclopedia of what things are made of.**
 
+Open-source BOM (bill of materials) knowledge and browser CAD tools.
+
 [![License: AGPL-3.0](https://img.shields.io/github/license/BOMWiki/bomwiki?style=flat-square&color=blue)](https://github.com/BOMWiki/bomwiki/blob/main/LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/BOMWiki/bomwiki?style=flat-square)](https://github.com/BOMWiki/bomwiki/commits/main)
 [![Runtime dependencies](https://img.shields.io/badge/runtime_deps-3-blue?style=flat-square)](https://github.com/BOMWiki/bomwiki/blob/main/package.json)
@@ -41,7 +43,7 @@ cordless-drill
 
 Sub-assemblies are shared: the same bearing or Li-ion cell is one node that appears on every product that uses it. The catalog is one graph.
 
-## The pieces
+## Projects
 
 - **[bomwiki](https://github.com/BOMWiki/bomwiki):** the public AGPL-3.0 wiki-engine source set used within bomwiki.com. Node.js and Postgres, no web framework, three runtime dependencies (`pg`, `marked`, `sanitize-html`). It is an allowlisted reading mirror for review and contributions, not a complete standalone checkout; private production integrations are omitted.
 - **[PartMode](https://github.com/BOMWiki/partmode):** open-source, local-first 3D parametric CAD that runs in the browser, powered by OpenCascade WASM. Try it at [partmode.com](https://partmode.com/).

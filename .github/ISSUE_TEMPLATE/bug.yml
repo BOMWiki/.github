@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a reproducible defect in the public BOMWiki wiki-engine paths.
+description: Report a reproducible defect in the public BOMwiki wiki-engine paths.
 title: "[Bug] "
 body:
   - type: dropdown

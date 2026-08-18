@@ -43,15 +43,15 @@ Sub-assemblies are shared: the same bearing or Li-ion cell is one node that appe
 
 ## The pieces
 
-- **[bomwiki](https://github.com/BOMWiki/bomwiki)** — the public AGPL-3.0 wiki-engine source set used within bomwiki.com. Node.js and Postgres, no web framework, three runtime dependencies (`pg`, `marked`, `sanitize-html`). It is an allowlisted reading mirror for review and contributions, not a complete standalone checkout; private production integrations are omitted.
-- **[PartMode](https://github.com/BOMWiki/partmode)** — open-source, local-first 3D parametric CAD that runs in the browser, powered by OpenCascade WASM. Try it at [partmode.com](https://partmode.com/).
-- **BOM Intelligence** — the analysis engine that reviews every proposed change. Closed source, but [its interface is documented](https://bomwiki.com/intelligence) so any instance can supply its own analyzer.
+- **[bomwiki](https://github.com/BOMWiki/bomwiki):** the public AGPL-3.0 wiki-engine source set used within bomwiki.com. Node.js and Postgres, no web framework, three runtime dependencies (`pg`, `marked`, `sanitize-html`). It is an allowlisted reading mirror for review and contributions, not a complete standalone checkout; private production integrations are omitted.
+- **[PartMode](https://github.com/BOMWiki/partmode):** open-source, local-first 3D parametric CAD that runs in the browser, powered by OpenCascade WASM. Try it at [partmode.com](https://partmode.com/).
+- **BOM Intelligence:** the analysis engine that reviews every proposed change. Closed source, but [its interface is documented](https://bomwiki.com/intelligence) so any instance can supply its own analyzer.
 
 ## Contributing
 
-- **Fix the content** — open an account on [bomwiki.com](https://bomwiki.com) and click Edit on any page. New contributors' changes are reviewed; trust is earned. See the [policies](https://bomwiki.com/policies).
-- **Improve the public engine** — review the source and propose changes on [BOMWiki/bomwiki](https://github.com/BOMWiki/bomwiki). The mirror is not a complete standalone service, so read its [scope](https://github.com/BOMWiki/bomwiki#readme) and [CONTRIBUTING guide](https://github.com/BOMWiki/bomwiki/blob/main/CONTRIBUTING.md) first.
-- **Report security issues** — privately, to [admin@bomwiki.com](mailto:admin@bomwiki.com). See [SECURITY](https://github.com/BOMWiki/bomwiki/blob/main/SECURITY.md).
+- **Fix the content:** open an account on [bomwiki.com](https://bomwiki.com) and click Edit on any page. New contributors' changes are reviewed; trust is earned. See the [policies](https://bomwiki.com/policies).
+- **Improve the public engine:** review the source and propose changes on [BOMWiki/bomwiki](https://github.com/BOMWiki/bomwiki). The mirror is not a complete standalone service, so read its [scope](https://github.com/BOMWiki/bomwiki#readme) and [CONTRIBUTING guide](https://github.com/BOMWiki/bomwiki/blob/main/CONTRIBUTING.md) first.
+- **Report security issues:** privately, to [admin@bomwiki.com](mailto:admin@bomwiki.com). See [SECURITY](https://github.com/BOMWiki/bomwiki/blob/main/SECURITY.md).
 
 ## How the site is run
 

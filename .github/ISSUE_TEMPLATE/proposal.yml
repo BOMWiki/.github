@@ -1,0 +1,58 @@
+name: Contribution proposal
+description: Propose a focused improvement to the public BOMWiki wiki-engine paths.
+title: "[Proposal] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or user workflow
+      description: Describe the concrete problem and who encounters it.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Proposed outcome
+      description: Describe observable behavior, not only an implementation approach.
+    validations:
+      required: true
+  - type: textarea
+    id: paths
+    attributes:
+      label: Public source paths
+      description: Name the allowlisted public files that would change, if known.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Acceptance evidence
+      description: Explain how maintainers can verify the behavior in the complete private CI tree.
+    validations:
+      required: true
+  - type: textarea
+    id: non_goals
+    attributes:
+      label: Scope and non-goals
+      description: Keep the first contribution focused and reviewable.
+    validations:
+      required: true
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Contribution intent
+      options:
+        - I want to implement this
+        - I can provide testing or review
+        - I am requesting maintainer feedback only
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I searched existing issues before proposing this change.
+          required: true
+        - label: The proposal does not add, reconstruct, or request proprietary production source.
+          required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability privately
+    url: https://github.com/BOMWiki/bomwiki/security/advisories/new
+    about: Do not disclose security-sensitive information in a public issue.
+  - name: Correct BOMWiki content
+    url: https://bomwiki.com
+    about: Product, assembly, and part content is edited on bomwiki.com, not in a code issue.

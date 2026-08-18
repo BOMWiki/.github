@@ -1,0 +1,71 @@
+name: Bug report
+description: Report a reproducible defect in the public BOMWiki wiki-engine paths.
+title: "[Bug] "
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Page rendering, search, or navigation
+        - Editing, review, history, or discussion
+        - Authentication, accounts, or email
+        - Graph, database, schema, or import
+        - Moderation or verification
+        - Analysis sidecar integration
+        - Documentation or deployment reference
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Source commit
+      description: Paste the full BOMWiki/bomwiki commit SHA you reviewed or tested.
+      placeholder: 40-character commit SHA
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Open ...
+        2. Choose ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and diagnostics
+      description: Include bounded logs or screenshots. Do not include credentials, private data, or proprietary source.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Public source path
+      description: Name the allowlisted public file or files that appear to be involved, if known.
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Would you like to work on a fix?
+      options:
+        - "Yes"
+        - I can test a fix
+        - Not at this time
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: This report contains no credentials, private data, proprietary source, or security-sensitive details.
+          required: true
